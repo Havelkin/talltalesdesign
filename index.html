@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tall Tales Design — Galerie</title>
+<meta name="description" content="Tall Tales Design — galerie ilustrací a grafiky.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#" class="logo">Tall Tales <span>Design</span></a>
+    <nav class="site-nav">
+      <a href="#gallery">Galerie</a>
+      <a href="#about">O projektu</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Grafika, která vypráví příběhy.</h1>
+    <p>Sbírka ilustrací a vizuálních prací Tall Tales Design. Zatím ve výstavbě — první kousky brzy přibudou.</p>
+  </div>
+</section>
+
+<main class="wrap">
+  <section id="gallery" class="gallery" aria-label="Galerie grafiky">
+    <!-- Placeholder položky — nahraď skutečnou grafikou v assets/img a uprav src níže -->
+    <figure class="tile tile--tall">
+      <img src="assets/img/placeholder-01.svg" alt="Placeholder grafika 1" loading="lazy">
+      <figcaption>Práce 01</figcaption>
+    </figure>
+    <figure class="tile">
+      <img src="assets/img/placeholder-02.svg" alt="Placeholder grafika 2" loading="lazy">
+      <figcaption>Práce 02</figcaption>
+    </figure>
+    <figure class="tile">
+      <img src="assets/img/placeholder-03.svg" alt="Placeholder grafika 3" loading="lazy">
+      <figcaption>Práce 03</figcaption>
+    </figure>
+    <figure class="tile tile--tall">
+      <img src="assets/img/placeholder-04.svg" alt="Placeholder grafika 4" loading="lazy">
+      <figcaption>Práce 04</figcaption>
+    </figure>
+    <figure class="tile">
+      <img src="assets/img/placeholder-05.svg" alt="Placeholder grafika 5" loading="lazy">
+      <figcaption>Práce 05</figcaption>
+    </figure>
+    <figure class="tile">
+      <img src="assets/img/placeholder-06.svg" alt="Placeholder grafika 6" loading="lazy">
+      <figcaption>Práce 06</figcaption>
+    </figure>
+  </section>
+
+  <section id="about" class="about">
+    <h2>O projektu</h2>
+    <p>Tall Tales Design je vedlejší projekt zaměřený na ilustraci a grafický design. Tahle stránka zatím slouží jako jednoduchá galerie — postupně ji naplníme skutečnými pracemi.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontakt</h2>
+    <p>Ozvi se na <a href="mailto:havelkin@gmail.com">havelkin@gmail.com</a>.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Tall Tales Design</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Zavřít">&times;</button>
+  <img src="" alt="" id="lightbox-img">
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
